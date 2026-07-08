@@ -1,6 +1,6 @@
 # analiseDistanciaInternacoes
 
-# GeoHealthRouter: Análise de Fluxo de Pacientes (MG)
+# analiseDistanciaInternacoes: Análise Comparativa de Internações de Pacientes (MG)
 
 Este projeto tem como objetivo calcular a distância e o tempo de deslocamento entre os municípios de origem e destino das internações hospitalares do **CORE** e do **SUSFácil** em Minas Gerais. A partir desses dados, o sistema gera métricas estatísticas sobre o deslocamento real enfrentado pelos pacientes.
 
@@ -33,6 +33,7 @@ Este projeto tem como objetivo calcular a distância e o tempo de deslocamento e
 Certifique-se de ter instalado as dependências antes de rodar o script:
 ```bash
 !pip install pandas openpyxl requests tqdm rapidfuzz unidecode
+```
 
 ## Como utilizar
 1. Coloque seu arquivo OrigemDestino_CORE_SUSFÁCIL.xlsx na mesma pasta do script.
